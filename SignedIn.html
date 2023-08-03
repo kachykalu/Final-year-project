@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swiiph Logged In page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="container-fluid " id="vibes">
+    <header
+      class="mx-5 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 " id="header>
+      <a href=" /" class=" d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <svg class="bi me-2 bg-secondary" width="100" height="40" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap" />
+      </svg>
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary fw-bold" id="buttons">Categories</a></li>
+        <li><a href="#" class="nav-link px-2 link-secondary fw-bold" id="buttons">Clients</a></li>
+        <li><a href="#" class="nav-link px-2 link-secondary fw-bold" id="buttons">About Us</a></li>
+      </ul>
+
+      
+    </header>
+  </div>
+  <div class="section1">
+    <div class="container">
+      <h1>Connecting you with your neighbourhood</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quos accusamus sed similique sit quis, harum
+        natus animi odit laboriosam omnis!</p>
+    </div>
+  </div>
+  <div class="section2">
+    <div class="container">
+
+      <p>Search Jobs here</p>
+      <div class="row d-flex justify-content-around criteria ">
+        <div class=" col-12 my-2  col-md-3 ">
+          <input type="text" name="Job title" id="job" placeholder="Job title" class="px-2">
+        </div>
+        <div class=" col-12 my-2  col-md-3 ">
+          <input type="text" name="Categories" id="job" placeholder="Categories" class="px-2">
+        </div>
+        <div class=" col-12 my-2  col-md-3 ">
+          <input type="text" name="Location" id="job" placeholder=" Location" class="px-2">
+        </div>
+        <div class=" col-12 my-2  col-md-3 ">
+          <button type="button" class="btn btn-dark " id="search"> Search Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="section3">
+    <div class="box2">
+      <h3 class="d-inline-block fw-bold">Popular Job Categories:</h3>
+      <div d-md-block>
+      <span><a href="">Plumbers</a></span>
+      <span><a href="">Engineering</a></span>
+      <span><a href="">Cleaners</a></span>
+    </div>
+    </div>
+  </div>
+  <div class="section4">
+    <div class="container px-4 py-5">
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold">How it works</h2>
+          <div class="gauge">
+            <p class="text-muted">Follow the process to connect with your dream jobFollow the process to connect with
+              your dream job.</p>
+          </div>
+          <a href="#" class="btn btn-dark">See More</a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-sm-2 g-4">
+          <div class=" d-flex flex-column gap-2">
+            <div class="box1">
+              <div class="mb-4 d-inline-flex align-items-center ">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M60 30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30C0 13.4315 13.4315 0 30 0C46.5685 0 60 13.4315 60 30Z"
+                    fill="#040404" fill-opacity="0.02" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M29.2019 18.0429C29.6904 18.0429 30.087 18.4388 30.087 18.9266C30.087 19.4144 29.6904 19.8103 29.2019 19.8103H24.7893C21.7399 19.8103 19.7702 21.8959 19.7702 25.1233V34.9196C19.7702 38.147 21.7399 40.2326 24.7893 40.2326H35.2029C38.2523 40.2326 40.2232 38.147 40.2232 34.9196V30.1734C40.2232 29.6856 40.6197 29.2897 41.1083 29.2897C41.5969 29.2897 41.9934 29.6856 41.9934 30.1734V34.9196C41.9934 39.1544 39.2637 42 35.2029 42H24.7893C20.7285 42 18 39.1544 18 34.9196V25.1233C18 20.8885 20.7285 18.0429 24.7893 18.0429H29.2019ZM39.4804 19.0781L40.9166 20.5121C41.6164 21.2097 42.0012 22.137 42 23.1244C42 24.1118 41.6153 25.038 40.9166 25.7343L32.055 34.5822C31.4047 35.2314 30.5385 35.5896 29.618 35.5896H25.1972C24.9588 35.5896 24.7299 35.493 24.5635 35.3221C24.3971 35.1525 24.3062 34.9227 24.3121 34.6835L24.423 30.2307C24.4454 29.3446 24.803 28.5116 25.4309 27.8835H25.432L34.2512 19.0781C35.6933 17.6406 38.0383 17.6406 39.4804 19.0781ZM33.5247 22.302L26.683 29.1337C26.3773 29.4389 26.2038 29.8442 26.1932 30.2743L26.1047 33.8222H29.618C30.0664 33.8222 30.4866 33.6489 30.804 33.332L37.6871 26.4578L33.5247 22.302ZM35.5022 20.3283L34.7757 21.0518L38.938 25.2088L39.6657 24.4842C40.0292 24.1212 40.2298 23.6381 40.2298 23.1244C40.2298 22.6095 40.0292 22.1252 39.6657 21.7623L38.2295 20.3283C37.4777 19.5801 36.2551 19.5801 35.5022 20.3283Z"
+                    fill="#040404" />
+                </svg>
+
+              </div>
+              <h4 class="fw-semibold mb-0">Register</h4>
+              <p class="text-muted">Take your project game to the next level take your project game to the next level
+              </p>
+            </div>
+          </div>
+
+          <div class=" d-flex flex-column gap-2">
+            <div class="box1">
+              <div class=" mb-4 d-inline-flex align-items-center ">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="30" fill="#040404" fill-opacity="0.02" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M27.4524 33.1024L27.5953 33.1024L27.9121 33.1033C30.6024 33.1178 36.9048 33.3649 36.9048 37.5654C36.9048 41.4599 31.7287 41.9804 27.7025 42L26.9927 41.9997C24.3024 41.9852 18 41.7381 18 37.5388C18 33.5619 23.394 33.1024 27.4524 33.1024ZM27.4524 34.9211C22.3752 34.9211 19.8 35.8025 19.8 37.5388C19.8 39.292 22.3752 40.1819 27.4524 40.1819C32.5296 40.1819 35.1048 39.3005 35.1048 37.5654C35.1048 35.8098 32.5296 34.9211 27.4524 34.9211ZM38.6449 25.1762C39.1417 25.1762 39.5449 25.5836 39.5449 26.0855L39.5448 27.6063L41.1 27.6073C41.5968 27.6073 42 28.0147 42 28.5166C42 29.0186 41.5968 29.426 41.1 29.426L39.5448 29.425L39.5449 30.9487C39.5449 31.4506 39.1417 31.858 38.6449 31.858C38.1481 31.858 37.7449 31.4506 37.7449 30.9487L37.7448 29.425L36.192 29.426C35.6952 29.426 35.292 29.0186 35.292 28.5166C35.292 28.0147 35.6952 27.6073 36.192 27.6073L37.7448 27.6063L37.7449 26.0855C37.7449 25.5836 38.1481 25.1762 38.6449 25.1762ZM27.4524 18C30.972 18 33.834 20.8929 33.834 24.4479C33.834 28.0028 30.972 30.8957 27.4524 30.8957H27.4152C25.7124 30.8896 24.1164 30.2143 22.92 28.997C21.7224 27.7785 21.066 26.1611 21.072 24.4442C21.072 20.8929 23.934 18 27.4524 18ZM27.4524 19.8187C24.9276 19.8187 22.872 21.8956 22.872 24.4479C22.8672 25.6833 23.3376 26.8412 24.1956 27.7154C25.0548 28.5884 26.1996 29.0722 27.4188 29.077L27.4524 29.9754V29.077C29.9784 29.077 32.034 27.0001 32.034 24.4479C32.034 21.8956 29.9784 19.8187 27.4524 19.8187Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0">Set up profile</h4>
+              <p class="text-muted">Take your project game to the next level take your project game to the next level
+              </p>
+            </div>
+          </div>
+
+          <div class=" d-flex flex-column gap-2">
+            <div class="box1">
+              <div class="mb-4 d-inline-flex align-items-center">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="30" fill="#040404" fill-opacity="0.02" />
+                  <path
+                    d="M30 18C23.376 18 18 23.376 18 30C18 36.624 23.376 42 30 42C36.624 42 42 36.624 42 30C42 23.376 36.624 18 30 18ZM30 39.6C24.708 39.6 20.4 35.292 20.4 30C20.4 24.708 24.708 20.4 30 20.4C35.292 20.4 39.6 24.708 39.6 30C39.6 35.292 35.292 39.6 30 39.6ZM23.4 36.6L32.412 32.412L36.6 23.4L27.588 27.588L23.4 36.6ZM30 28.68C30.732 28.68 31.32 29.268 31.32 30C31.32 30.732 30.732 31.32 30 31.32C29.268 31.32 28.68 30.732 28.68 30C28.68 29.268 29.268 28.68 30 28.68Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0">Explore</h4>
+              <p class="text-muted">Take your project game to the next level take your project game to the next level
+              </p>
+            </div>
+          </div>
+
+          <div class=" d-flex flex-column gap-2">
+            <div class="box1">
+              <div class="mb-4 d-inline-flex align-items-center ">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="30" fill="#040404" fill-opacity="0.02" />
+                  <path
+                    d="M26.4 39.6H22.8C21.527 39.6 20.3061 39.0943 19.4059 38.1941C18.5057 37.2939 18 36.073 18 34.8V24C18 22.727 18.5057 21.5061 19.4059 20.6059C20.3061 19.7057 21.527 19.2 22.8 19.2H36C37.273 19.2 38.4939 19.7057 39.3941 20.6059C40.2943 21.5061 40.8 22.727 40.8 24V27.6M25.2 18V20.4M33.6 18V20.4M18 25.2H40.8M37.8 34.3716L36 36.1716"
+                    stroke="#040404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M36 42C39.3137 42 42 39.3137 42 36C42 32.6863 39.3137 30 36 30C32.6863 30 30 32.6863 30 36C30 39.3137 32.6863 42 36 42Z"
+                    stroke="#040404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <h4 class="fw-semibold mb-0">Schedule</h4>
+              <p class="text-muted">Take your project game to the next level take your project game to the next level
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section5 ">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+        <div class="d-flex flex-column align-items-start justify-content-center my-2 gap-3">
+          <a href="#" class="btn text-light border-light mb-3">Categories</a>
+          <h3 class="fw-bold text-light ">Explore jobs by the most popular category</h3>
+          <p class="gauge">Explore jobs by the most popular categories and find jobs that match your skillset.</p>
+          <a href="#" class="btn btn-light ">See More</a>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="inner container">
+            <a href="">
+              <div class="plumbers d-flex flex-row align-items-center mt-2 justify-content-between px-4 py-2 ">
+                <span class="d-flex flex-row align-items-center">
+                  <svg width="60" height="60" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <circle cx="40" cy="40" r="40" fill="#A68CBE" fill-opacity="0.1" />
+                    <rect x="16" y="16" width="49" height="49" fill="url(#pattern0)" />
+                    <defs>
+                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_2_16" transform="scale(0.0104167)" />
+                      </pattern>
+                      <image id="image0_2_16" width="96" height="96"
+                        xlink:href="data:image/png;base64,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" />
+                    </defs>
+                  </svg>
+
+                  <span class="px-3">
+                    <h3 class="fw-bold">Plumbers</h3>
+                    <p>6083+ Jobs</p>
+                  </span>
+                </span>
+                <svg width="60" height="60" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="#040404" stroke-width="1.5" />
+                  <path
+                    d="M20.6984 40.662C20.2669 40.1461 20.2243 39.4554 20.5752 39.0449L20.6806 38.9403L35.3514 26.5907L24.6611 24.6071C24.0023 24.4849 23.4615 23.8406 23.4532 23.168C23.4456 22.5565 23.8806 22.1322 24.4547 22.1518L24.6308 22.1713L38.2084 24.6891C38.2952 24.7052 38.38 24.7304 38.4618 24.7635C38.4858 24.774 38.5103 24.7847 38.5347 24.7962C38.5561 24.8056 38.5773 24.8163 38.5982 24.8275C38.6282 24.8442 38.6587 24.8619 38.6888 24.8808C38.7123 24.895 38.7342 24.9097 38.7558 24.925C38.7823 24.9441 38.8099 24.965 38.8371 24.987C38.8562 25.0021 38.874 25.0172 38.8915 25.0328C38.9173 25.0561 38.9433 25.0807 38.9687 25.1065C38.9883 25.1259 39.0069 25.1458 39.0251 25.1662C39.0358 25.1787 39.0471 25.1918 39.0583 25.2052L39.0909 25.245C39.107 25.2655 39.1226 25.2864 39.1377 25.3077L39.0583 25.2052C39.1121 25.2695 39.1598 25.3365 39.2015 25.4053C39.2115 25.4217 39.2215 25.4389 39.2311 25.4562C39.2508 25.4918 39.2687 25.5271 39.285 25.5627C39.2932 25.5804 39.3015 25.5996 39.3094 25.6189C39.3253 25.6578 39.3392 25.6959 39.3513 25.7342C39.3571 25.7522 39.3628 25.7713 39.368 25.7905C39.3765 25.8219 39.3838 25.8525 39.3899 25.883C39.3943 25.9046 39.3984 25.9275 39.4018 25.9505L39.4044 25.9683C39.4119 26.0231 39.416 26.0777 39.4165 26.1315L39.4163 26.1333L39.5311 39.9875C39.5367 40.6596 39.0072 41.1031 38.3484 40.9781C37.7495 40.8645 37.25 40.3201 37.1599 39.7171L37.1455 39.5349L37.0538 28.6307L22.3852 40.9785C21.9243 41.3665 21.1691 41.2248 20.6984 40.662Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+            </a>
+
+
+
+            <a href="">
+              <div class="plumbers d-flex flex-row align-items-center mt-2 justify-content-between px-4 py-2">
+                <span class="d-flex flex-row align-items-center">
+                  <img class="carpenter" src="/images/carpenter.png" alt="" width="60px" height="60px">
+                  <span class=" px-3">
+                    <h3 class="fw-bold">Carpenters</h3>
+                    <p>6083+ Jobs</p>
+                  </span>
+                </span>
+                <svg width="60" height="60" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="#040404" stroke-width="1.5" />
+                  <path
+                    d="M20.6984 40.662C20.2669 40.1461 20.2243 39.4554 20.5752 39.0449L20.6806 38.9403L35.3514 26.5907L24.6611 24.6071C24.0023 24.4849 23.4615 23.8406 23.4532 23.168C23.4456 22.5565 23.8806 22.1322 24.4547 22.1518L24.6308 22.1713L38.2084 24.6891C38.2952 24.7052 38.38 24.7304 38.4618 24.7635C38.4858 24.774 38.5103 24.7847 38.5347 24.7962C38.5561 24.8056 38.5773 24.8163 38.5982 24.8275C38.6282 24.8442 38.6587 24.8619 38.6888 24.8808C38.7123 24.895 38.7342 24.9097 38.7558 24.925C38.7823 24.9441 38.8099 24.965 38.8371 24.987C38.8562 25.0021 38.874 25.0172 38.8915 25.0328C38.9173 25.0561 38.9433 25.0807 38.9687 25.1065C38.9883 25.1259 39.0069 25.1458 39.0251 25.1662C39.0358 25.1787 39.0471 25.1918 39.0583 25.2052L39.0909 25.245C39.107 25.2655 39.1226 25.2864 39.1377 25.3077L39.0583 25.2052C39.1121 25.2695 39.1598 25.3365 39.2015 25.4053C39.2115 25.4217 39.2215 25.4389 39.2311 25.4562C39.2508 25.4918 39.2687 25.5271 39.285 25.5627C39.2932 25.5804 39.3015 25.5996 39.3094 25.6189C39.3253 25.6578 39.3392 25.6959 39.3513 25.7342C39.3571 25.7522 39.3628 25.7713 39.368 25.7905C39.3765 25.8219 39.3838 25.8525 39.3899 25.883C39.3943 25.9046 39.3984 25.9275 39.4018 25.9505L39.4044 25.9683C39.4119 26.0231 39.416 26.0777 39.4165 26.1315L39.4163 26.1333L39.5311 39.9875C39.5367 40.6596 39.0072 41.1031 38.3484 40.9781C37.7495 40.8645 37.25 40.3201 37.1599 39.7171L37.1455 39.5349L37.0538 28.6307L22.3852 40.9785C21.9243 41.3665 21.1691 41.2248 20.6984 40.662Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+            </a>
+
+
+            <a href="">
+              <div class="plumbers d-flex flex-row align-items-center mt-2 justify-content-between px-4 py-2">
+                <span class="d-flex flex-row align-items-center">
+                  <img src="/images/Cleaning Service.png" alt="" class="cleaner" width="60px" height="60px">
+
+                  <span class="px-3">
+                    <h3 class="fw-bold">Cleaners</h3>
+                    <p>6083+ Jobs</p>
+                  </span>
+                </span>
+                <svg width="60" height="60" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="#040404" stroke-width="1.5" />
+                  <path
+                    d="M20.6984 40.662C20.2669 40.1461 20.2243 39.4554 20.5752 39.0449L20.6806 38.9403L35.3514 26.5907L24.6611 24.6071C24.0023 24.4849 23.4615 23.8406 23.4532 23.168C23.4456 22.5565 23.8806 22.1322 24.4547 22.1518L24.6308 22.1713L38.2084 24.6891C38.2952 24.7052 38.38 24.7304 38.4618 24.7635C38.4858 24.774 38.5103 24.7847 38.5347 24.7962C38.5561 24.8056 38.5773 24.8163 38.5982 24.8275C38.6282 24.8442 38.6587 24.8619 38.6888 24.8808C38.7123 24.895 38.7342 24.9097 38.7558 24.925C38.7823 24.9441 38.8099 24.965 38.8371 24.987C38.8562 25.0021 38.874 25.0172 38.8915 25.0328C38.9173 25.0561 38.9433 25.0807 38.9687 25.1065C38.9883 25.1259 39.0069 25.1458 39.0251 25.1662C39.0358 25.1787 39.0471 25.1918 39.0583 25.2052L39.0909 25.245C39.107 25.2655 39.1226 25.2864 39.1377 25.3077L39.0583 25.2052C39.1121 25.2695 39.1598 25.3365 39.2015 25.4053C39.2115 25.4217 39.2215 25.4389 39.2311 25.4562C39.2508 25.4918 39.2687 25.5271 39.285 25.5627C39.2932 25.5804 39.3015 25.5996 39.3094 25.6189C39.3253 25.6578 39.3392 25.6959 39.3513 25.7342C39.3571 25.7522 39.3628 25.7713 39.368 25.7905C39.3765 25.8219 39.3838 25.8525 39.3899 25.883C39.3943 25.9046 39.3984 25.9275 39.4018 25.9505L39.4044 25.9683C39.4119 26.0231 39.416 26.0777 39.4165 26.1315L39.4163 26.1333L39.5311 39.9875C39.5367 40.6596 39.0072 41.1031 38.3484 40.9781C37.7495 40.8645 37.25 40.3201 37.1599 39.7171L37.1455 39.5349L37.0538 28.6307L22.3852 40.9785C21.9243 41.3665 21.1691 41.2248 20.6984 40.662Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="plumbers d-flex flex-row align-items-center mt-2 justify-content-between px-4 py-2">
+                <span class="d-flex flex-row align-items-center">
+                  <img src="/images/Electrical.png" alt="" class="electrical" width="60px" height="60px">
+                  <span class="px-3">
+                    <h3 class="fw-bold">Plumbers</h3>
+                    <p>6083+ Jobs</p>
+                  </span>
+                </span>
+                <svg width="60" height="60" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="#040404" stroke-width="1.5" />
+                  <path
+                    d="M20.6984 40.662C20.2669 40.1461 20.2243 39.4554 20.5752 39.0449L20.6806 38.9403L35.3514 26.5907L24.6611 24.6071C24.0023 24.4849 23.4615 23.8406 23.4532 23.168C23.4456 22.5565 23.8806 22.1322 24.4547 22.1518L24.6308 22.1713L38.2084 24.6891C38.2952 24.7052 38.38 24.7304 38.4618 24.7635C38.4858 24.774 38.5103 24.7847 38.5347 24.7962C38.5561 24.8056 38.5773 24.8163 38.5982 24.8275C38.6282 24.8442 38.6587 24.8619 38.6888 24.8808C38.7123 24.895 38.7342 24.9097 38.7558 24.925C38.7823 24.9441 38.8099 24.965 38.8371 24.987C38.8562 25.0021 38.874 25.0172 38.8915 25.0328C38.9173 25.0561 38.9433 25.0807 38.9687 25.1065C38.9883 25.1259 39.0069 25.1458 39.0251 25.1662C39.0358 25.1787 39.0471 25.1918 39.0583 25.2052L39.0909 25.245C39.107 25.2655 39.1226 25.2864 39.1377 25.3077L39.0583 25.2052C39.1121 25.2695 39.1598 25.3365 39.2015 25.4053C39.2115 25.4217 39.2215 25.4389 39.2311 25.4562C39.2508 25.4918 39.2687 25.5271 39.285 25.5627C39.2932 25.5804 39.3015 25.5996 39.3094 25.6189C39.3253 25.6578 39.3392 25.6959 39.3513 25.7342C39.3571 25.7522 39.3628 25.7713 39.368 25.7905C39.3765 25.8219 39.3838 25.8525 39.3899 25.883C39.3943 25.9046 39.3984 25.9275 39.4018 25.9505L39.4044 25.9683C39.4119 26.0231 39.416 26.0777 39.4165 26.1315L39.4163 26.1333L39.5311 39.9875C39.5367 40.6596 39.0072 41.1031 38.3484 40.9781C37.7495 40.8645 37.25 40.3201 37.1599 39.7171L37.1455 39.5349L37.0538 28.6307L22.3852 40.9785C21.9243 41.3665 21.1691 41.2248 20.6984 40.662Z"
+                    fill="#040404" />
+                </svg>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section6">
+    <h3 class="text-center fw-bold mt-3">Available clients</h3>
+    <p class="text-center  mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ad atque optio. Natus
+      reiciendis officia dicta, consequuntur.</p>
+    <div class="container text-center links">
+      <div class="">
+        <div class="">
+          <a href="#" class="px-sm-2">All</a>
+          <a href="#" class="px-sm-2">Carpenter</a>
+          <a href="#" class="px-sm-2">Electrician</a>
+          <a href="#" class="px-sm-2">Mason</a>
+        </div>
+        <div class="">
+          <a href="#" class="px-sm-2">Plumbers</a>
+          <a href="#" class="px-sm-2">House keeeper
+            <a href="#" class="px-sm-2">Industrial cleaners</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section7">
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 gy-2">
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+        <div>
+          <div id="company">
+            <div class="d-flex flex-row align-items-center">
+              <img src="/images/carpenter.png" alt="pic" height="60px" width="60px">
+              <span class="px-3">
+                <h3 class="fw-bold">Company Name</h3>
+                <p>Location</p>
+              </span>
+            </div>
+            <h3 class="fw-bold">Carpenter</h3>
+            <p>Full-time</p>
+            <article class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae ratione
+              officiis
+              impedit odit?
+              Earum quos beatae dolore explicabo, amet.</article>
+            <a href="" class="btn btn-dark">Book</a>
+          </div>
+        </div>
+
+
+      </div>
+      <a href="" class="btn btn-light float-right border-dark my-4">See more</a>
+    </div>
+  </div>
+  <div class="section8">
+    <h4 class="fw-bold text-center">Testimonials</h4>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum reprehenderit
+      tenetur veniam.</p>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div>
+          <div class="testimonial">
+            <p class="text-center mb-4">"The service was absolutely impeccible. I see myself applying for better jobs
+              here in
+              the
+              nearest future"</p>
+            <div class="d-flex flex-row center" id="profile">
+              <img src="/images/Ellipse 1.png" class="mx-2" alt="" width="50px" height="50px">
+
+              <span>
+                <h5 class="fw-bold">John Doe</h5>
+                <p class="fw-light">Somecompany LLC</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <p class="text-center mb-4">"The service was absolutely impeccible. I see myself applying for better jobs
+              here in
+              the nearest future"</p>
+            <div class="d-flex flex-row center" id="profile">
+              <img src="/images/Ellipse 1-1.png" class="mx-2" width="50px" height="50px" alt=".">
+              <span>
+                <h5 class="fw-bold">John Doe</h5>
+                <p class="fw-light">Somecompany LLC</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial">
+            <p class="text-center mb-4">"The service was absolutely impeccible. I see myself applying for better jobs
+              here in
+              the
+              nearest future"</p>
+            <div class="d-flex flex-row center " id="profile">
+              <img src="/images/Ellipse 1-2.png" class="mx-2" width="50px" height="50px" alt=".">
+              <span>
+                <h5 class="fw-bold">John Doe</h5>
+                <p class="fw-light">Somecompany LLC</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section9">
+    <div class="container">
+      <footer class="px-3 py-5 ">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="fw-bold text-light">Swiiph</h5>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim consequuntur
+              aspernatur!</p>
+            <div class="icons d-flex">
+              <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="25" r="25" fill="white" />
+                <path
+                  d="M24.4966 20.9981C22.0177 20.9981 19.9947 23.0211 19.9947 25.5C19.9947 27.9789 22.0177 30.0019 24.4966 30.0019C26.9755 30.0019 28.9985 27.9789 28.9985 25.5C28.9985 23.0211 26.9755 20.9981 24.4966 20.9981ZM37.999 25.5C37.999 23.6357 38.0159 21.7884 37.9112 19.9275C37.8065 17.766 37.3134 15.8477 35.7328 14.2672C34.1489 12.6832 32.234 12.1935 30.0725 12.0888C28.2083 11.9841 26.3609 12.001 24.5 12.001C22.6357 12.001 20.7884 11.9841 18.9275 12.0888C16.766 12.1935 14.8477 12.6866 13.2672 14.2672C11.6832 15.8511 11.1935 17.766 11.0888 19.9275C10.9841 21.7917 11.001 23.6391 11.001 25.5C11.001 27.3609 10.9841 29.2116 11.0888 31.0725C11.1935 33.234 11.6866 35.1523 13.2672 36.7328C14.8511 38.3168 16.766 38.8065 18.9275 38.9112C20.7917 39.0159 22.6391 38.999 24.5 38.999C26.3643 38.999 28.2116 39.0159 30.0725 38.9112C32.234 38.8065 34.1523 38.3134 35.7328 36.7328C37.3168 35.1489 37.8065 33.234 37.9112 31.0725C38.0193 29.2116 37.999 27.3643 37.999 25.5ZM24.4966 32.4268C20.6634 32.4268 17.5698 29.3332 17.5698 25.5C17.5698 21.6668 20.6634 18.5732 24.4966 18.5732C28.3298 18.5732 31.4234 21.6668 31.4234 25.5C31.4234 29.3332 28.3298 32.4268 24.4966 32.4268ZM31.7071 19.9072C30.8121 19.9072 30.0894 19.1845 30.0894 18.2895C30.0894 17.3945 30.8121 16.6718 31.7071 16.6718C32.6021 16.6718 33.3248 17.3945 33.3248 18.2895C33.3251 18.502 33.2834 18.7125 33.2022 18.9089C33.121 19.1053 33.0019 19.2837 32.8516 19.434C32.7013 19.5843 32.5229 19.7034 32.3265 19.7846C32.1301 19.8658 31.9196 19.9075 31.7071 19.9072Z"
+                  fill="#040404" />
+              </svg>
+              <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z"
+                  fill="white" />
+                <path
+                  d="M31.3687 11.6738H27.1095C24.582 11.6738 21.7707 12.7369 21.7707 16.4006C21.783 17.6772 21.7707 18.8998 21.7707 20.2758H18.8467V24.9287H21.8612V38.3238H27.4005V24.8403H31.0566L31.3874 20.2627H27.305C27.305 20.2627 27.3141 18.2264 27.305 17.635C27.305 16.1872 28.8115 16.2701 28.9021 16.2701C29.6191 16.2701 31.013 16.2722 31.3708 16.2701V11.6738H31.3687Z"
+                  fill="#040404" />
+              </svg>
+              <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="25" r="25" fill="white" />
+                <path
+                  d="M39.5307 16.548C38.5116 17.04 37.4168 17.3725 36.2659 17.5227C37.4534 16.7485 38.3419 15.53 38.7655 14.0946C37.6498 14.8166 36.4286 15.3249 35.1552 15.5972C34.2989 14.6011 33.1647 13.9408 31.9286 13.7189C30.6926 13.497 29.4239 13.726 28.3195 14.3702C27.2151 15.0144 26.3369 16.0379 25.8211 17.2816C25.3053 18.5254 25.1808 19.92 25.4669 21.2487C23.2062 21.1251 20.9946 20.4848 18.9756 19.3696C16.9567 18.2544 15.1755 16.6892 13.7477 14.7754C13.2595 15.693 12.9788 16.7568 12.9788 17.8897C12.9783 18.9097 13.2088 19.914 13.6499 20.8135C14.0911 21.7131 14.7292 22.4801 15.5077 23.0466C14.6048 23.0153 13.7219 22.7495 12.9324 22.2713V22.3511C12.9323 23.7816 13.3865 25.168 14.2178 26.2752C15.0492 27.3824 16.2065 28.1421 17.4934 28.4255C16.6559 28.6724 15.7778 28.7088 14.9255 28.5318C15.2886 29.7627 15.9959 30.839 16.9483 31.6101C17.9008 32.3813 19.0507 32.8086 20.2371 32.8323C18.2231 34.5549 15.7358 35.4893 13.1753 35.4852C12.7217 35.4853 12.2686 35.4564 11.8181 35.3987C14.4171 37.2194 17.4426 38.1857 20.5325 38.1819C30.9921 38.1819 36.7102 28.7433 36.7102 20.5572C36.7102 20.2913 36.7041 20.0227 36.6931 19.7567C37.8053 18.8804 38.7654 17.7952 39.5283 16.552L39.5307 16.548Z"
+                  fill="#040404" />
+              </svg>
+              <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="25" r="25" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.3773 18.9108H26.6107V21.5176C27.3645 20.0183 29.2978 18.6712 32.202 18.6712C37.7693 18.6712 39.091 21.6557 39.091 27.1314V37.2726H33.4546V28.3785C33.4546 25.2601 32.7008 23.5016 30.7816 23.5016C28.1198 23.5016 27.0137 25.3968 27.0137 28.377V37.2726H21.3773V18.9108ZM11.7124 37.0331H17.3487V18.6712H11.7124V37.0331ZM18.1561 12.684C18.1563 13.1564 18.0626 13.6242 17.8805 14.0601C17.6983 14.496 17.4314 14.8914 17.0951 15.2232C16.4137 15.9004 15.4913 16.2795 14.5305 16.2772C13.5715 16.2765 12.6513 15.8984 11.9688 15.2246C11.6338 14.8916 11.3677 14.4958 11.1858 14.0599C11.004 13.6239 10.91 13.1564 10.9092 12.684C10.9092 11.73 11.2896 10.817 11.9702 10.1434C12.6521 9.46868 13.5727 9.0904 14.532 9.09082C15.493 9.09082 16.4145 9.46987 17.0951 10.1434C17.7743 10.817 18.1561 11.73 18.1561 12.684Z"
+                  fill="#040404" />
+              </svg>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-light">Pages</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Categories</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Clients</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How it works</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-light">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & condition</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5 class="text-light">Sign up to our newsletter</h5>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control " placeholder="Email address">
+                <button class="btn btn-light" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex pt-3 flex-column flex-sm-row justify-content-center py-4 my-4">
+          <hr>
+          <p class="text-muted">&copy; Swiiph 2022. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
